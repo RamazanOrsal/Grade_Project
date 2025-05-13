@@ -21,16 +21,15 @@ Dieses Projekt ist ein modulares Python-System, das Lehrkräften ermöglicht, Sc
 # 📂 Projektstruktur
 ```bash
 Grade_Project/
-├── db_operations.py       # Datenbankverbindung und SQL-Abfragen
-├── grade_entry.py         # Noteneingabemaske für Lehrkräfte
-├── grade_analysis.py      # Analyse und Klassifizierung der Noten
-├── main.py                # Einstiegspunkt der Anwendung
-├── student_fetcher.py     # Abrufen von Schülerinformationen
-├── utils.py               # Hilfsfunktionen
-└── README.md              # Projektdokumentation
+├── kontrol.py         # Datenbankverbindung und Benutzeranmeldung
+├── main.py            # Hauptprogramm und Einstiegspunkt
+├── notes.py           # Notenberechnung, Durchschnitt, Analyse
+├── Punkte.sqlite      # SQLite-Datenbankdatei
+├── student_mod.py     # Verwaltung und Anzeige von Schülerdaten
+├── subject.py         # Verwaltung von Fächern
+├── teacher_mod.py     # Verwaltung und Anzeige von Lehrerdaten
+└── README.md          # Projektdokumentation
 ```
-
-
 
 ## 🚀 Starten des Projekts
 

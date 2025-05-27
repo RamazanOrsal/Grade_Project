@@ -13,9 +13,11 @@ Dieses Projekt ist ein modulares Python-System, das Lehrkräften ermöglicht, Sc
 
   
 # 🛠️ Verwendete Technologien
+
 -**Programmiersprache**: Python
 -**Datenbank**: SQLite
 -**Bibliotheken**: sqlite3
+- Entwickelt mit Visual Studio Code
 
 
 # 📂 Projektstruktur
